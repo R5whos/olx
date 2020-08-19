@@ -1,0 +1,331 @@
+/*BACKGROUND*/
+.head-bg{
+	height: 15%;
+	width: 100.5%;
+	background-color: #7B68EE;
+	position: fixed;
+	z-index: 7;
+	margin-left: -1%;
+	margin-top: -1%;
+}
+.midl-bg{
+	height: 40%;
+	width: 100.5%;
+	background-color: white;
+	position: absolute;
+	margin-left: -1%;
+	margin-top: 6%;
+}
+
+.bg{
+	height: 1500px;
+	width: 100.5%;
+	background-color: #f3f0ff;
+	position: absolute;
+	margin-left: -1%;
+	z-index: -1;
+	margin-top: 40%;
+}
+/*SEARCH*/
+#sear{
+	border-style: hidden;
+	position: fixed;
+	z-index: 8;
+	border-radius: 15px;
+	width: 50%;
+	height: 5%;
+	margin-left: 22%;
+	margin-top: 1%;
+	font-family: "Lucida Console", Courier;
+
+	padding: 5px;
+}
+#sear{
+	border-color: black;
+}
+/*LINKS*/
+#chs{
+	position: absolute;
+	color: #9370DB;
+	z-index: 0;
+	margin-top: 10%;
+	text-transform: uppercase;
+	margin-left: 43%;
+	font-family: "Lucida Console", Courier;
+}
+#chs:after {
+    display: block;
+    content: "";
+    height: 5px;
+    width: 0%;
+    background-color: #7B68EE;
+    transition: width .3s ease-in-out;
+}
+#chs:hover:after,
+#chs:focus:after {
+    width: 100%;
+}
+
+
+#car {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20%;
+	margin-left: 20%;
+	position: absolute;
+}
+
+#animals {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30%;
+	margin-left: 20%;
+	position: absolute;
+}
+
+#kids {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20%;
+	margin-left: 30%;
+	position: absolute;
+}
+
+#hobby {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30%;
+	margin-left: 30%;
+	position: absolute;
+}
+
+#house {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20%;
+	margin-left: 40%;
+	position: absolute;
+}
+
+#detals{
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 29px;
+	margin-top: 30%;
+	margin-left: 40%;
+	position: absolute;
+}
+
+#clother {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20%;
+	margin-left: 50%;
+	position: absolute;
+}
+
+#work{
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 29px;
+	margin-top: 30%;
+	margin-left: 50%;
+	position: absolute;
+}
+#home {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20%;
+	margin-left: 60%;
+	position: absolute;
+}
+
+#busines{
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 29px;
+	margin-top: 30%;
+	margin-left: 60%;
+	position: absolute;
+}
+#electronik {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20%;
+	margin-left: 70%;
+	position: absolute;
+}
+#other {
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #f447ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30%;
+	margin-left: 70%;
+	position: absolute;
+}
+/*SEARCH NAV*/
+#go_s{
+    color: black;
+    position: fixed;
+    background: #66ddf6;
+    border-color: #b4f2ff #2fb7ce #2fb7ce;
+    font-family: "Lucida Console", Courier;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 140px;
+    padding: 10px 12px;
+    background: white;
+    border: 1.6px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    transition: 1s;
+    text-decoration: none;
+    margin-top: 0.7%;
+    margin-left: 80%;
+    z-index: 8;
+}
+#go_s:hover{
+	background-color:#7B68EE;
+	color: white;
+	border-color: #000;
+}
+
+#list{
+	width: 220px;
+	height: 6.5%;
+	margin-left: 1.2%;
+	margin-top:1%;
+	border-radius: 10px;
+	z-index: 8;
+	position: fixed;
+	font-family: "Lucida Console", Courier;
+}
+
+#vip{
+	text-transform: uppercase;
+	font-family: "Lucida Console", Courier;
+	position: absolute;
+	margin-top:47%;
+	margin-left: 46%;
+	color: #9370DB;
+	z-index: 5;
+}
+
+#vip-bg{
+	width: 99%;
+	background-color: white;
+	height: 800px;
+	position: absolute;
+	z-index: 1;
+	margin-top: 45%;
+}
+#vip:after {
+    display: block;
+    content: "";
+    height: 5px;
+    width: 0%;
+    background-color: #7B68EE;
+    transition: width .3s ease-in-out;
+}
+#vip:hover:after,
+#vip:focus:after {
+    width: 100%;
+}
+
+
+#last-bg{
+	margin-left: -1%;
+	width: 100.5%;
+	height: 500px;
+	margin-top: 1700px;
+	background-color: #7B68EE;
+	z-index: 4;
+	position: absolute;
+
+}
